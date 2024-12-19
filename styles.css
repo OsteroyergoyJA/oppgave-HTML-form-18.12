@@ -26,8 +26,9 @@ background-color: rgba(0, 0, 0, 0.697);
 animation-name: result-animation;
 animation-duration: 4s;
 animation-delay: 4s;
-animation-timing-function: ease-in;
-animation-iteration-count: 1;}
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+}
 
 @keyframes result-animation {
 0% {transform: translateY(-250%);}
