@@ -12,6 +12,7 @@ convertButton.addEventListener('click', function (event) {
 
   const fromWeight = Number(weight.value);
   
+  
   if (fromUnit.value === 'kilogram-to-pounds') {
 
     output.textContent = fromWeight * 2.2046 + " pounds";
