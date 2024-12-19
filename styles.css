@@ -18,7 +18,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-h3
+#pounds-and-kilogram
 {font-weight: bold;
 font-size: 1.5rem;
 color: rgb(226, 214, 214);
@@ -26,10 +26,11 @@ background-color: rgba(0, 0, 0, 0.697);
 animation-name: result-animation;
 animation-duration: 4s;
 animation-delay: 4s;
-animation-timing-function: ease-in;}
+animation-timing-function: ease-in;
+animation-iteration-count: 1;}
 
 @keyframes result-animation {
-0% {transform: translateY(-450%);}
+0% {transform: translateY(-250%);}
 100% {transform: translateY(0%);}
 
 }
@@ -39,3 +40,4 @@ animation-timing-function: ease-in;}
   100% {transform: translateX(0);}
   
 }
+
